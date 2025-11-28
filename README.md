@@ -5,7 +5,7 @@ This repository implements a custom **multi-agent reinforcement learning (MARL)*
 
 The code is written in Python and provides a basic environment definition, an agent interface, and a training loop (in `main.py` / `rl.py`), to allow experimenting with different RL algorithms in a multi-agent competitive context.
 
-Original environment: [Link Text](https://github.com/KRLGroup/gym-ma-survival-2d/tree/main)
+Original environment: [2D MARL Survival Environment](https://github.com/KRLGroup/gym-ma-survival-2d/tree/main)
 
 
 ## Features  
