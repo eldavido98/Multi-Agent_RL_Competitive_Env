@@ -19,7 +19,22 @@ Original environment: [2D MARL Survival Environment](https://github.com/KRLGroup
 - **env/**: Contains the environment implementation (state, observations, step/reset logic).  
 - **agent.py**: Defines how agents observe the environment, choose actions, and (optionally) learn/update policies.  
 - **rl.py**: Implements the logic to run episodes, collect experiences, compute rewards, and loop training / evaluation.  
-- **main.py**: Example entry point — shows how to instantiate the environment and agents, how to run training, evaluation, or simulation.  
+- **main.py**: Example entry point — shows how to instantiate the environment and agents, how to run training, evaluation, or simulation.
+
+
+## Usage
+The main script supports two optional modes: **training** and **evaluation**.  
+You can enable them via command-line flags.
+
+### Run Training
+```python main.py --train```
+or
+```python main.py --train --render```
+
+### Run Evaluation
+```python main.py --evaluate```
+or
+```python main.py --evaluate --render```
 
 
 ## License & Credits  
