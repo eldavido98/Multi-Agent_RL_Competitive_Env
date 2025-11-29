@@ -16,10 +16,10 @@ Original environment: [2D MARL Survival Environment](https://github.com/KRLGroup
 
 
 ## Repository Structure  
-- **env/**: Contains the environment implementation (state, observations, step/reset logic).  
-- **agent.py**: Defines how agents observe the environment, choose actions, and learn/update policies.  
-- **rl.py**: Implements the logic to run episodes, collect experiences, compute rewards, and loop training / evaluation.  
-- **main.py**: Example entry point — shows how to instantiate the environment and agents, how to run training, evaluation, or simulation.
+- **env/** : Contains the environment implementation (state, observations, step/reset logic).  
+- **agent.py** : Defines how agents observe the environment, choose actions, and learn/update policies.  
+- **rl.py** : Implements the logic to run episodes, collect experiences, compute rewards, and loop training / evaluation.  
+- **main.py** : Example entry point — shows how to instantiate the environment and agents, how to run training, evaluation, or simulation.
 
 
 ## Usage
